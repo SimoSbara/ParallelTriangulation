@@ -357,7 +357,7 @@ public:
     TriIndVec& VertTrisInternal();
     /// @}
 
-private:
+public:
     /*____ Detail __*/
     void addSuperTriangle(const Box2d<T>& box);
     void addNewVertex(const V2d<T>& pos, TriInd iT);
